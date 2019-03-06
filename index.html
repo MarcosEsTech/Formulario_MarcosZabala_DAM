@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Formulario</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+ <section style="margin-top: 30px;" class="col-6">
+ 	
+	<h2 style="text-align: center;">Registration Form</h2>
+
+	<br>
+
+	<form>
+
+		<div class="form-group">
+			<label for="">User id:</label>
+			<input type="text" placeholder="Required." id="user" maxlength="12" minlength="5">
+		</div>
+
+
+		<div class="form-group">
+			<label for="">Password</label>
+			<input type="text" placeholder="Required." id="password" maxlength="12" minlength="7">
+		</div>
+
+
+		<div class="form-group">
+			<label for="">Name</label>
+			<input type="text" placeholder="Required." id="name">
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="">Adress</label>
+			<input type="text" placeholder="Optional.">
+		</div>
+
+
+
+		<div>
+			<label for="">Sex:</label>
+			<label class="radio-inline"><input type="radio" name="optradio" id="male" checked="true">Male</label>
+			<label class="radio-inline"><input type="radio" name="optradio" id="female">Female</label>
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="">ZIP Code</label>
+			<input type="text" placeholder="Required." id="zipCode">
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="">Email</label>
+			<input type="text" placeholder="Required." id="email">
+		</div>
+
+
+		<div>
+			<label for="">Country: </label>
+			<select class="selectpicker">
+			  <option>U.S.A</option>
+			  <option>United Kingdom</option>
+			  <option>Spain</option>
+			  <option>Italy</option>
+			  <option>Japan</option>
+			</select>
+		</div>
+
+
+
+
+		<div class="checkbox-inline">
+			<label for="">Language: </label>
+			<label><input type="checkbox" id="language1">English</label>
+			<label><input type="checkbox" id="language2">Non English</label>
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="">About</label>
+			<textarea class="form-control" rows="3" maxlength="240"></textarea>
+		</div>
+
+		
+		<button type="submit" class="btn btn-primary" id="submit">Submit</button>
+
+	</form>
+
+	
+
+ </section>
+
+<script src="funcionalidad.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
